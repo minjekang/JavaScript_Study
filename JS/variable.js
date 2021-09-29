@@ -1,6 +1,6 @@
 // 1. use strict
 'use strict';
-// 2. Variable
+// 2. Variable, rw(read/write)
 // let (added in ES6)
 let globalname = 'kangmin';
 
@@ -17,11 +17,19 @@ console.log(globalname);
 
 // var (don't use!)  no block scope
 
-// 3. Constant  값이 변하지 않음
-// 다시 바꾸지 않을 데이터타입
+// 3. Constant  값이 변하지 않음 r(read only)
+// 다시 바꾸지 않을 데이터타입 
 
 const day = 7;
 const maxnum = 5;
+
+// Note!
+// Immutable data types: primitive types, frozen objects (i.e. object.freeze())
+// Mutable data types: all objects by default are mutable in JS
+// favor immutable data type always for a few reasons:
+// - security
+// - thread safety
+// - reduce human mistakes
 
 // 4. Variable types 
 // primitive, single item: number, string, boolean, null
