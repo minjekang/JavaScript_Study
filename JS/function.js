@@ -1,3 +1,4 @@
+'use strict';
 // Function 
 
 // 1. Function declaration
