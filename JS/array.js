@@ -77,8 +77,8 @@ console.log(fruits.indexOf('🍒'));
 console.log(fruits.indexOf('🍍'));
 
 // includes
-console.log(fruits.includes('🍉'));
-console.log(fruits.includes('🍍'));
+console.log(fruits.includes('🌭'));
+console.log(fruits.includes('🍔'));
 
 // lastIndexOf
 console.clear();
