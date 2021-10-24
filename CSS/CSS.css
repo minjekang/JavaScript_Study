@@ -1,4 +1,11 @@
-p{
-    font-size: 1em;
-    color: #FF0000;
+h1 {
+    color : blue;
+}
+
+h2 {
+    color : green;
+}
+
+p {
+    margin-left: 10px;
 }
